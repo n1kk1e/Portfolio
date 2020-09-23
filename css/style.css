@@ -1,0 +1,170 @@
+header{
+    font-family: 'Roboto';
+    height: 60px;
+    padding-top: 5px;
+    background-image: linear-gradient(60deg, rgba(255, 43, 74, 0.9) 0%, rgba(0, 36, 83, 0.9) 50%, rgba(255, 43, 74, 0.9) 100%);
+}
+ul{
+    display: flex;
+}
+li{
+    display: block;
+}
+.font_color{
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
+.font_color:hover{
+    color: black;
+}
+.content{
+    text-align: center;
+    height: 760px;
+    padding: 125px 0;
+    background-image: url("https://i.redd.it/i9iqra3s5y111.jpg");
+}
+.info{
+    font-family: 'Roboto';
+    max-width: 540px!important;
+    margin: 0 auto;
+    padding: 20px 50px;
+    color: white;
+    max-width: 580px;
+    background-image: linear-gradient(45deg, rgba(93, 35, 96, 0.3) 0%, rgba(158, 53, 105, 0.3) 50%, rgba(93, 35, 96, 0.3) 100%);
+}
+.info_h1{
+    margin-bottom: 40px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.info_h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.info_h4-top{
+    padding-top: 30px;
+    border-top: 2px solid rgba(255, 255, 255, .2); 
+}
+.info_span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(255, 255, 255, .7);
+}
+.info_p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(255, 255, 255, .5); 
+}
+.btn{
+    font-family: 'Roboto';
+    color: black;
+    background-color: white;
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: none;
+    transition: ease-in-out .5s;
+}
+.btn:hover{
+    background-color: wheat;
+}
+.btn:active{
+    transition: ease-in-out ;
+    color: red;
+}
+footer{
+    font-family: 'Roboto';
+    height: 150px;
+    background-image: linear-gradient(60deg, rgba(255, 43, 74, 0.9) 0%, rgba(0, 36, 83, 0.9) 50%, rgba(255, 43, 74, 0.9) 100%);
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.icons{
+    text-align: center;
+}
+i{
+    margin: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out .5s;
+}
+footer a:hover{
+    color: black;
+}
+input{
+    font-family: 'Raleway';
+    border-radius: 10px;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+input[type="text"]{
+    margin-bottom: 10px;
+}
+input[type="email"]{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+input[type="submit"]:hover{
+    background-color: red;
+    color:white;
+}
+.info_top{
+    padding-top: 125px;
+}
+.about{
+    padding: 0 !important;
+}
+.about img{
+    max-height: 330px;
+    margin-bottom: 40px;
+}
+.hobby{
+    text-align: center;
+    padding: 0 !important;
+}
+.hobby img{
+    max-height: 160px;
+    margin-bottom: 40px;
+}
+img{
+    transition: ease-in .5s;
+}
+img:hover{
+    transform: scaleY(1.5);
+}
+.link{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 7px;
+    width: 20%;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+    color: black;
+    background-color: white;
+}
+.link:hover{
+    background-color: green;
+    color: red;
+}
